@@ -1,0 +1,74 @@
+/* The code below puts the title of the website in the center */
+.image-1{
+    justify-content: right;
+    width: 500px;
+    height: 250px;
+}
+.container{
+    width: 100%;
+    height:100%;
+    background: #cc8cb7;
+
+}
+.menu ul{
+    display:inline-flex;
+    margin: 70px; 
+    border: solid;
+
+}
+.menu ul li{
+    list-style: none;
+    margin:0 30px;
+    color: #cc8cb7;
+    cursor:pointer;
+}
+.menu{
+    text-align: left;
+
+}
+.logo img{
+   width: 30px;
+   margin-top: -8px;
+   margin-right:30px;
+}
+.title { 
+    text-align: left;
+    font-family: Georgia;
+    font-size: 70px;
+    padding-left: 20px;
+}
+
+/* The code below adds a white background-color and black text color for the body of the page. */
+body {
+    color: black;
+    text-align: center;
+    background-color: beige;
+}
+
+
+/* The code below adds a black background-color and white text color for each section heading. */
+.section {
+    color:black;
+    text-align: center;
+    border: 20px soild black;
+    padding:100px;
+}
+Hr{
+    border-width:6px
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+.registerButton{
+    top:40;
+    right:80px;
+    text-decoration:none;
+    color:#cc8cb7;
+    border: 4px soild transparent;
+    border-radius: 30px;
+    background-image: color ="yellow";
+    background-origin: border-box;
+    background-clip: container-box, border-box;
+}
